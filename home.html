@@ -3,61 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neoclothes</title>
+    <title>FashionStyle - Moda para Jóvenes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Neoclothes</div>
-        <nav>
-            <ul>
-                <li>Ropa</li>
-                <li>Zapatos</li>
-                <li>Accesorios</li>
-            </ul>
-        </nav>
-        <div class="cart-icon">🛒</div>
+        <div class="container">
+            <h1 class="logo">FashionStyle</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Colección</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="hero">
-            <div class="category hombre">
-                <h2>Hombre</h2>
-                <p>New Collections</p>
-                <button>Tienda</button>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Ropa de Moda para Jóvenes</h2>
+            <p>Descubre las tendencias más actuales y atrévete a lucir diferente.</p>
+            <a href="#products" class="btn-hero">Explorar Colección</a>
+        </div>
+    </section>
+
+    <section id="products" class="container">
+        <h3>Nuestra Colección</h3>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="./images/camisa.webp" alt="Camisa Casual">
+                <h4>Camisa Casual</h4>
+                <p class="price">$29.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-            <div class="category mujer">
-                <h2>Mujer</h2>
-                <p>New Collections</p>
-                <button>Tienda</button>
+            <div class="product-item">
+                <img src="./images/vestido.webp" alt="Vestido Elegante">
+                <h4>Vestido Elegante</h4>
+                <p class="price">$49.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-        </section>
-        <section class="benefits">
-            <div class="benefit">
-                <img src="path/to/icon1.png" alt="Icono de Cambios">
-                <h3>Cambios y devoluciones</h3>
-                <p>GRATIS</p>
+            <div class="product-item">
+                <img src="./images/hoodie.webp" alt="Hoodie Unisex">
+                <h4>Hoodie Unisex</h4>
+                <p class="price">$39.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-            <div class="benefit">
-                <img src="path/to/icon2.png" alt="Icono de Envíos">
-                <h3>Envíos</h3>
-                <p>RÁPIDOS</p>
+            <div class="product-item">
+                <img src="./images/sneakers.webp" alt="Zapatillas">
+                <h4>Zapatillas</h4>
+                <p class="price">$59.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-            <div class="benefit">
-                <img src="path/to/icon3.png" alt="Icono de Pagos">
-                <h3>Todos los medios</h3>
-                <p>DE PAGO DISPONIBLES</p>
+            <div class="product-item">
+                <img src="./images/mochila.webp" alt="Mochila Moderna">
+                <h4>Mochila Moderna</h4>
+                <p class="price">$24.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-        </section>
-        <section class="best-sellers">
-            <h2>Más Vendidos</h2>
-            <div class="products">
-                <div class="product"><img src="path/to/image1.jpg" alt="Producto 1"></div>
-                <div class="product"><img src="path/to/image2.jpg" alt="Producto 2"></div>
-                <div class="product"><img src="path/to/image3.jpg" alt="Producto 3"></div>
-                <div class="product"><img src="path/to/image4.jpg" alt="Producto 4"></div>
-                <div class="product"><img src="path/to/image5.jpg" alt="Producto 5"></div>
+            <div class="product-item">
+                <img src="./images/gafas.webp" alt="Gafas de Sol">
+                <h4>Gafas de Sol</h4>
+                <p class="price">$19.99</p>
+                <button>Agregar al Carrito</button>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FashionStyle. Todos los derechos reservados.</p>
+            <ul class="social-media">
+                <li><a href="#"><img src="icono_facebook.webp" alt="Facebook"></a></li>
+                <li><a href="#"><img src="icono_instagram.webp" alt="Instagram"></a></li>
+                <li><a href="#"><img src="icono_twitter.webp" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
